@@ -9,14 +9,15 @@
 # @Description  :
 #
 """
+
 import os.path
 
 
 def practice_q():
     """
         Question 1 File Handling:
-    """
 
+    """
     total_size = 0  # Initialize variable to save file sizes
     loop = True
     # Define file path
@@ -34,7 +35,7 @@ def practice_q():
             total_size = total_size + size  # Get total size
         else:
             # If file not exit the program with a user defined warning
-            return print("File dont exist, Please enter an existing file")
+            return print("File doesn't exist, Please enter an existing file")
 
 
 if __name__ == "__main__":
